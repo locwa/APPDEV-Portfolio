@@ -11,11 +11,11 @@ import { CommonModule } from '@angular/common';
 })
 export class FirstGrading {
   imgLinks = [
-    "/fgact1.png",
-    "/fgact2.png",
-    "/fgact345.png",
-    "/fgact6.png",
-    "/fgexam.png"
+    "fgact1.png",
+    "fgact2.png",
+    "fgact345.png",
+    "fgact6.png",
+    "fgexam.png"
   ]
 
   isHovered = false

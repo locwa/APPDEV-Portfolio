@@ -11,11 +11,11 @@ import { CommonModule } from '@angular/common';
 })
 export class Midterm {
   imgLinks = [
-    "/mglab1.png",
-    "/mglab2.png",
-    "/mglab3.png",
-    "/mglab4.png",
-    "/mgexam.png"
+    "mglab1.png",
+    "mglab2.png",
+    "mglab3.png",
+    "mglab4.png",
+    "mgexam.png"
   ]
 
   isHovered = false

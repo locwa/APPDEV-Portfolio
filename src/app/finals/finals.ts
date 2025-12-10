@@ -11,11 +11,11 @@ import { CommonModule } from '@angular/common';
 })
 export class Finals {
   imgLinks = [
-    "/finalscoursework.png",
-    "/finalslab1.png",
-    "/finalslab2.png",
-    "/finalslab3.png",
-    "/finalproject.png"
+    "finalscoursework.png",
+    "finalslab1.png",
+    "finalslab2.png",
+    "finalslab3.png",
+    "finalproject.png"
   ]
 
   isHovered = false
