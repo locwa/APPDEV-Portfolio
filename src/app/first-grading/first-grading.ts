@@ -10,5 +10,17 @@ import {RouterLink} from '@angular/router';
   styleUrl: './first-grading.css',
 })
 export class FirstGrading {
+  imgLinks = [
+    "/fgact1.png",
+    "/fgact2.png",
+    "/fgact345.png",
+    "/fgact6.png",
+    "/fgexam.png"
+  ]
 
+  imgSrc = ""
+
+  changePhoto(index: number){
+    this.imgSrc = this.imgLinks[index]
+  }
 }

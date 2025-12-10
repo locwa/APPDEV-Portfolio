@@ -5,17 +5,17 @@
 <div class="projects-container">
 
   <div class="project-list">
-    <a href="https://drive.google.com/drive/folders/1k5c6q74rTKzzYmcTkmdY-iDeBDlQJCBd?usp=sharing" target="_blank" >FG Activity 1</a>
-    <a href="https://drive.google.com/file/d/1WbcQgfMWpwTuQtIPg1eUAV3R6YoibXX-/view?usp=sharing" target="_blank">FG Lab 2</a>
-    <a href="https://locwa.github.io/portfolio-angular/" target="_blank">FG Lab 3, 4, 5</a>
-    <a href="https://locwa.github.io/FG-Lab-6/" target="_blank">FG Lab 6</a>
-    <a href="https://locwa.github.io/Policarpio_APPDEV1_FG/" target="_blank">FG Exam</a>
+    <a href="https://drive.google.com/drive/folders/1k5c6q74rTKzzYmcTkmdY-iDeBDlQJCBd?usp=sharing" target="_blank" (mouseover)="changePhoto(0)">1. FG Activity 1</a>
+    <a href="https://drive.google.com/file/d/1WbcQgfMWpwTuQtIPg1eUAV3R6YoibXX-/view?usp=sharing" target="_blank" (mouseover)="changePhoto(1)">2. FG Lab 2</a>
+    <a href="https://locwa.github.io/portfolio-angular/" target="_blank" (mouseover)="changePhoto(2)">3. FG Lab 3, 4, 5</a>
+    <a href="https://locwa.github.io/FG-Lab-6/" target="_blank" (mouseover)="changePhoto(3)">4. FG Lab 6</a>
+    <a href="https://locwa.github.io/Policarpio_APPDEV1_FG/" target="_blank" (mouseover)="changePhoto(4)">5. FG Exam</a>
   </div>
 
   <hr class="vertical-divider">
 
   <div class="project-preview">
-
+    <img class="preview-img" [src]="imgSrc" alt="">
   </div>
 
 </div>
