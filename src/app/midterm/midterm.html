@@ -1,1 +1,58 @@
-<p>midterm works!</p>
+<h1>Midterm</h1>
+
+<hr class="divider">
+
+<div class="projects-container">
+
+  <div class="project-list">
+    <a
+      href="https://locwa.github.io/policarpio_APPDEV1_MG_SEARCH/"
+      target="_blank"
+      (mouseover)="changePhoto(0)"
+      (mouseleave)="removePhoto()"
+    >
+      1. MG Lab 1
+    </a>
+    <a
+      href="https://locwa.github.io/Mid-Lab-2/"
+      target="_blank"
+      (mouseover)="changePhoto(1)"
+      (mouseleave)="removePhoto()"
+    >
+      2. Mid-Lab-2
+    </a>
+    <a
+      href="https://locwa.github.io/MID-Lab3/"
+      target="_blank"
+      (mouseover)="changePhoto(2)"
+      (mouseleave)="removePhoto()"
+    >
+      3. Mid-Lab3
+    </a>
+    <a
+      href="https://locwa.github.io/MidLab4/"
+      target="_blank"
+      (mouseover)="changePhoto(3)"
+      (mouseleave)="removePhoto()"
+    >
+      4. Mid-Lab4
+    </a>
+    <a
+      href="https://locwa.github.io/policarpio_midterm_exam/"
+      target="_blank"
+      (mouseover)="changePhoto(4)"
+      (mouseleave)="removePhoto()"
+    >
+      5. Midterm Exam
+    </a>
+  </div>
+
+  <hr class="vertical-divider">
+
+  <div class="project-preview">
+    <div class="preview-img-border">
+      <img *ngIf="isHovered" class="preview-img" [src]="imgSrc" alt="">
+    </div>
+  </div>
+
+</div>
