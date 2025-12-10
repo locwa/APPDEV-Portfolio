@@ -1,0 +1,28 @@
+h1{
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.projects-container{
+  padding: 1rem 4rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.project-list{
+  display: flex;
+  flex-direction: column;
+}
+
+a{
+  padding: 1rem 1rem;
+  color: black;
+  text-decoration: none;
+  font-size: 2rem;
+  border-radius: 5px;
+}
+
+a:hover{
+  background-color: rgba(0, 0, 0, 0.52)
+}

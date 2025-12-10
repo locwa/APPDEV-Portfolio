@@ -1,0 +1,21 @@
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.logo-style{
+  height: 4rem;
+  width: auto;
+}
+
+.nav-buttons{
+  display: flex;
+  gap: 1rem;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
