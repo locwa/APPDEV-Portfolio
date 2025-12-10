@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import {RouterLink} from '@angular/router';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-first-grading',
   imports: [
-    RouterLink
+    CommonModule
   ],
   templateUrl: './first-grading.html',
   styleUrl: './first-grading.css',
@@ -18,9 +18,15 @@ export class FirstGrading {
     "/fgexam.png"
   ]
 
+  isHovered = false
   imgSrc = ""
 
   changePhoto(index: number){
     this.imgSrc = this.imgLinks[index]
+    this.isHovered = true
+  }
+
+  removePhoto(){
+    this.isHovered = false;
   }
 }
