@@ -1,1 +1,58 @@
-<p>finals works!</p>
+<h1>Finals</h1>
+
+<hr class="divider">
+
+<div class="projects-container">
+
+  <div class="project-list">
+    <a
+      href="https://docs.google.com/document/d/1DOFNV_1lvOAEgYRMKMbjo2LBwarVCwNY/edit?usp=sharing&ouid=100815499427201343887&rtpof=true&sd=true/"
+      target="_blank"
+      (mouseover)="changePhoto(0)"
+      (mouseleave)="removePhoto()"
+    >
+      1. Finals-coursework
+    </a>
+    <a
+      href="https://docs.google.com/document/d/1mtEx7dxa38XYO5UYpufKh9gDw2GrgrJ3L-zAY9x3Rcs/edit?usp=sharing"
+      target="_blank"
+      (mouseover)="changePhoto(1)"
+      (mouseleave)="removePhoto()"
+    >
+      2. Finals-Lab1
+    </a>
+    <a
+      href="https://docs.google.com/document/d/1VapsWMJqsZ8HFEq05WVeL7xvmI9e0QAIeELRz67BcV8/edit?usp=sharing/"
+      target="_blank"
+      (mouseover)="changePhoto(2)"
+      (mouseleave)="removePhoto()"
+    >
+      3. Finals-Lab2
+    </a>
+    <a
+      href="https://docs.google.com/document/d/1z8PwYt1uwDy6BYobHxcQb6U2TPKtVHoUEe1vO-FYYw8/edit?usp=sharing/"
+      target="_blank"
+      (mouseover)="changePhoto(3)"
+      (mouseleave)="removePhoto()"
+    >
+      4. Finals-Lab3
+    </a>
+    <a
+      href="https://chroma-ken.github.io/community-job-board/"
+      target="_blank"
+      (mouseover)="changePhoto(4)"
+      (mouseleave)="removePhoto()"
+    >
+      5. Final Project
+    </a>
+  </div>
+
+  <hr class="vertical-divider">
+
+  <div class="project-preview">
+    <div class="preview-img-border">
+      <img *ngIf="isHovered" class="preview-img" [src]="imgSrc" alt="">
+    </div>
+  </div>
+
+</div>
